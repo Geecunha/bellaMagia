@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "Dramaturg";
+  src: url("../fonte/Dramaturg.otf")
+}
+
+@font-face {
+  font-family: "Gotham Office";
+  src: url("../fonte/GothamOffice-Regular.otf")
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Gotham Office', sans-serif;
+}
+
+.linha {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#logo {
+	width: 170px;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu ul {
+	display: flex;
+	list-style-type: none;
+	/* margin-top: -110px; */
+	/* width: 60%; */
+}
+
+.menu li {
+	width: auto;
+	margin: 10px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+
+.menu ul a:hover {
+	background-color: #e5517f;
+	color: #fff;
+	border-radius: 10px;
+
+	/* transition: all 0.3s ease-in-out; */
+}
+
+.banner {
+	width: 100vw;
+}
+
+.icone {
+	background-color: #e5517f;
+  width: 145px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.icone:hover {
+	transition: all 0.3s ease-in-out;
+	filter: brightness(0.8);
+}
+
+.icone img {
+	margin-right: 8px;
+  width: 27px;
+}
+
+.icone span {
+	display: inline-block;
+	margin-top: 7px;
+	font-family:'Dramaturg', arial;
+	color: #fff;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.container_texto h1 {
+	font-family: 'Dramaturg', arial;
+  font-weight: normal;
+  font-size: 76px;
+	margin: 26px 0px;
+  background-color: #e5517f;
+  color: #fff;
+	padding-left: 161px;
+  height: 81px;
+}
+
+.texto {
+	color: #878787;
+	font-size: 20px;
+	margin: 40px 164px;
+}
+
+.carrossel {
+	display: flex;
+  justify-content: space-evenly;
+	margin-bottom: 30px;
+}
+
+.carrossel img{
+	height: 300px;
+	width: 300px;
+	border-radius: 51px;
+  border: 22px solid #FFB860;
+}
+
+.container_rodape {
+	display: flex;
+  justify-content: space-around;
+	background-color: #e5517f;
+}
+
+.container_rodape li{
+	list-style-type: none;
+}
+
+.container_rodape ul {
+	margin-left: -33px;
+}
+
+.container_rodape a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+}
+
+.container_rodape a:hover {
+	color: #ffc3d5;
+}
+
+.container_rodape h2 {
+	color: #fff;
+	font-size: 18px;
+}
+
+#redes li {
+	text-align: center;
+}
+
+.alinha_items {
+	justify-content: center;
+	align-items: center;
+}
+
+
+.d_flex {
+	display: flex;
+}

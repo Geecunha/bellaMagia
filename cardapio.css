@@ -1,0 +1,205 @@
+@font-face {
+  font-family: "Dramaturg";
+  src: url("../fonte/Dramaturg.otf")
+}
+
+@font-face {
+  font-family: "Gotham Office";
+  src: url("../fonte/GothamOffice-Regular.otf")
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Gotham Office', sans-serif;
+}
+
+.linha {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#logo {
+	width: 170px;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu ul {
+	display: flex;
+	list-style-type: none;
+	/* margin-top: -110px; */
+	/* width: 60%; */
+}
+
+.menu li {
+	width: auto;
+	margin: 10px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+
+.menu ul a:hover {
+	background-color: #e5517f;
+	color: #fff;
+	border-radius: 10px;
+	/* transition: all 0.3s ease-in-out; */
+}
+
+.icone {
+	background-color: #e5517f;
+  width: 145px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.icone:hover {
+	transition: all 0.3s ease-in-out;
+	filter: brightness(0.8);
+}
+
+.icone img {
+	margin-right: 8px;
+  width: 27px;
+}
+
+.icone span {
+	display: inline-block;
+	margin-top: 7px;
+	font-family:'Dramaturg', arial;
+	color: #fff;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.cardapio {
+	background-color: #e5517f;
+	margin-top: -24px;
+}
+
+.cardapio h1 {
+	padding: 6px;
+	color: #fff;
+  font-family: 'Dramaturg', arial;
+  font-size: 56px;
+  font-weight: normal;
+  text-align: center;
+	padding-bottom: 0px;
+}
+
+.linha2 {
+	display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.foto {
+	border: 2px solid #eaeaea;
+	padding: 20px;
+	border-radius: 16px;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto img {
+	border-radius: 16px;
+}
+
+.bloco1 p{
+	text-align: center;
+}
+
+.bloco1 span {
+	display: flex;
+  justify-content: center;
+	font-weight: bold;
+}
+
+.button {
+	margin-top: 13px;
+}
+
+.button span {
+	text-align: center;
+	padding-left: 10px;
+}
+
+.button a {
+	display: flex;
+	color: #fff;
+	background-color: #e5517f;
+	text-decoration: none;
+	padding: 13px;
+	border-radius: 12px;
+	/* text-transform: uppercase;  - deixae em letra maiuscula*/
+	font-size: 13px;
+	justify-content: center;
+	
+}
+
+.button :hover {
+	background-color: #FFB860;
+	color: #fff !important;
+	transition: all 0.3s ease-in-out;
+}
+
+.button img {
+	width: 22px;
+}
+
+
+.container_rodape {
+	display: flex;
+  justify-content: space-around;
+	background-color: #e5517f;
+	margin-top: 32px;
+}
+
+.container_rodape li{
+	list-style-type: none;
+}
+
+.container_rodape ul {
+	margin-left: -33px;
+}
+
+.container_rodape a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+}
+
+.container_rodape a:hover {
+	color: #ffc3d5;
+}
+
+.container_rodape h2 {
+	color: #fff;
+	font-size: 18px;
+}
+
+#redes li {
+	text-align: center;
+}
+
+.alinha_items {
+	justify-content: center;
+	align-items: center;
+}
+
+.d_flex {
+	display: flex;
+}
